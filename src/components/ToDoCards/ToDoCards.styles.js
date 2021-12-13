@@ -1,0 +1,148 @@
+import {StyleSheet} from 'react-native';
+
+export default StyleSheet.create({
+  container: {
+    backgroundColor: '#7DA453',
+    margin: 5,
+    borderRadius: 5,
+    padding: 10,
+  },
+  container2: {
+    flex: 1,
+    flexDirection: 'row',
+  },
+  delete: {
+    flex: 1,
+    flexDirection: 'row',
+    justifyContent: 'center',
+    backgroundColor: 'red',
+    margin: 5,
+    borderRadius: 5,
+    padding: 5,
+  },
+  edit: {
+    flex: 1,
+    flexDirection: 'row',
+    justifyContent: 'center',
+    backgroundColor: 'blue',
+    margin: 5,
+    borderRadius: 5,
+    padding: 5,
+  },
+  doneButton:{
+    flex: 1,
+    flexDirection: 'row',
+    justifyContent: 'center',
+    backgroundColor: 'green',
+    margin: 5,
+    borderRadius: 5,
+    padding: 5,
+  },
+  fixedButton:{
+    flex: 1,
+    flexDirection: 'row',
+    justifyContent: 'center',
+    backgroundColor: 'red',
+    margin: 5,
+    borderRadius: 5,
+    padding: 5,
+  },
+  closeDoneButton:{
+    flexDirection: 'row',
+    justifyContent: 'center',
+    margin: 5,
+    borderRadius: 5,
+    padding: 5,
+  },
+  closeFocusView: {
+    flex: 1,
+    flexDirection: 'row',
+    justifyContent: 'center',
+    margin: 5,
+    borderRadius: 5,
+    padding: 5,
+  },
+  container3: {
+    flex:1,
+    flexDirection:'row',
+    justifyContent:'space-between',
+    alignItems:'center',
+    margin: 5,
+    borderRadius: 5,
+    padding: 10,
+  },
+  container4:{
+    flex:1,
+    flexDirection:'row',
+    backgroundColor:'gray',
+    margin: 5,
+    borderRadius: 5,
+    padding: 10,
+  },
+  textDone:{
+    fontWeight: 'bold',
+    fontSize: 20,
+    color: 'white',
+    textDecorationLine:'line-through',
+    textDecorationColor:'gray',
+  },
+  text: {
+    fontWeight: 'bold',
+    fontSize: 20,
+    color: 'white',
+  },
+  text2: {
+    fontWeight: 'bold',
+    textDecorationLine: 'line-through',
+    textDecorationStyle: 'solid',
+    textDecorationColor: 'gray',
+    fontSize: 20,
+    color: 'white',
+  },
+  Button: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    color: 'white',
+  },
+  modalView: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: '#102027',
+  },
+  modalView2:{
+    borderRadius:20,
+    backgroundColor: '#37474F',
+  },
+  editView: {
+    padding:20,
+    justifyContent: 'center',
+    borderRadius:10,
+  },
+  modalTextInput: {
+    width: 300,
+    height: 60,
+    borderBottomColor:'gray',
+    borderBottomWidth:1,
+    fontSize: 20,
+  },
+  saveEdit: {
+    backgroundColor: '#808080',
+    paddingHorizontal:10,
+    paddingVertical:10,
+    alignItems: 'center',
+    margin: 5,
+    borderRadius:20,
+  },
+  modalText:{
+    fontSize:20,
+    fontWeight:'bold',
+    color:'white'
+  },
+  saveText:{
+    alignItems:'flex-end',
+    fontSize:20,
+    fontWeight:'bold',
+    color:'white'
+  }
+});
